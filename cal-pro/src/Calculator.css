@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+h1{
+    color: yellow;
+   
+}
+input{
+    width: 330px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: right;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,80px);
+    grid-template-rows: repeat(4,80px);
+    flex-direction: column;
+    row-gap: 5px;
+    column-gap: 5px;
+    /* border: 2px solid black; */
+    
+}
+.b1{
+    width: 160px;
+}
+.b2{
+    width: 160px;
+    /* margin-left: 10px; */
+}
+
+   
+    
+
+button{
+    border-radius: 10px;
+    border: 2px solid black;
+}
