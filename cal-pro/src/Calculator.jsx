@@ -13,7 +13,7 @@ return (
         <input type="text"value={result}/>
       </div>
       
-      <div className='container'>
+      <div className='container m'>
     
      <button value={7} onClick={n=> setResult( result + n.target.value)}>7</button>
      <button value={8} onClick={n=> setResult(result + n.target.value)}>8</button>
